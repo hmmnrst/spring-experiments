@@ -13,11 +13,11 @@ import static org.assertj.core.api.Assertions.*;
 public class MainTest {
 
 	@Autowired
-	ApiClient apiClient;
+	SomeBo someBo;
 
 	@Test
 	public void test() {
-		assertThat(apiClient).isNotNull();
-		System.out.println(apiClient);
+		assertThat(someBo).isNotNull();
+		System.out.println(someBo);
 	}
 }
